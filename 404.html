@@ -1,1 +1,11 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><title>Johnnie Lai</title><base href="/"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="icon" type="image/x-icon" href="favicon.ico"><link href="styles.f00ea49133a364798be4.bundle.css" rel="stylesheet"/></head><body><app-root></app-root><script type="text/javascript" src="inline.63a0ace197d2e313ccae.bundle.js"></script><script type="text/javascript" src="polyfills.67d068662b88f84493d2.bundle.js"></script><script type="text/javascript" src="vendor.91639e4791aa0f32208a.bundle.js"></script><script type="text/javascript" src="main.e2f52e79de2c8f878445.bundle.js"></script></body></html>
+<!doctype html><html lang="en"><head><meta charset="utf-8"><title>Johnnie Lai</title><base href="/"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="icon" type="image/x-icon" href="favicon.ico"><script>(function () {
+      // Retrieve the URL the user was trying to access when receiving the 404.
+      var redirect = sessionStorage.redirect;
+      // Remove the URL from sessionStorage.
+      delete sessionStorage.redirect;
+      // Check if we actually need to redirect.
+      if (redirect && redirect != location.href) {
+        // We need to redirect to the URL the user was trying to access.
+        history.replaceState(null, null, redirect);
+      }
+    })();</script><link href="styles.f00ea49133a364798be4.bundle.css" rel="stylesheet"/></head><body><app-root></app-root><script type="text/javascript" src="inline.63a0ace197d2e313ccae.bundle.js"></script><script type="text/javascript" src="polyfills.67d068662b88f84493d2.bundle.js"></script><script type="text/javascript" src="vendor.91639e4791aa0f32208a.bundle.js"></script><script type="text/javascript" src="main.e2f52e79de2c8f878445.bundle.js"></script></body></html>
