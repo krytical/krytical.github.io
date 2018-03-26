@@ -1,2 +1,2 @@
-# krytical.github.io
-My porfolio website made with Angular 4
+# [Johnnie's Portfolio](krytical.github.io)
+My simple porfolio website made with Angular 4
